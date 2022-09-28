@@ -1,0 +1,38 @@
+{
+    "name": "raybon/laravel-robot",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Raybon\\LaravelRobot\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "lipeng",
+            "email": "me@raybon.vip"
+        }
+    ],
+    "require": {
+        "mitoop/robot": "^1.0"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "laravel/pint": "^1.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Raybon\\LaravelRobot\\RobotServiceProvider"
+            ],
+            "aliases": {
+                "Robot": "Raybon\\LaravelRobot\\Robot"
+            }
+        }
+    },
+    "scripts": {
+        "pint": [
+            "./vendor/bin/pint --config=pint.json"
+        ]
+    }
+}
