@@ -1,6 +1,6 @@
 <?php
 
-namespace Raybon\LaravelRebot;
+namespace RaybonLee\LaravelRebot;
 
 use Illuminate\Support\Facades\Facade;
 use Mitoop\Robot\Robot as IRobot;

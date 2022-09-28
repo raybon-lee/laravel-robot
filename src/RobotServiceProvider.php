@@ -1,6 +1,6 @@
 <?php
 
-namespace Raybon\LaravelRobot;
+namespace RaybonLee\LaravelRobot;
 
 use Illuminate\Support\ServiceProvider;
 use Mitoop\Robot\Robot;
