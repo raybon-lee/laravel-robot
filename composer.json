@@ -1,14 +1,14 @@
 {
-    "name": "raybon/laravel-robot",
+    "name": "raybon-lee/laravel-robot",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Raybon\\LaravelRobot\\": "src"
+            "RaybonLee\\LaravelRobot\\": "src"
         }
     },
     "authors": [
         {
-            "name": "lipeng",
+            "name": "raybon",
             "email": "me@raybon.vip"
         }
     ],
@@ -23,10 +23,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Raybon\\LaravelRobot\\RobotServiceProvider"
+                "RaybonLee\\LaravelRobot\\RobotServiceProvider"
             ],
             "aliases": {
-                "Robot": "Raybon\\LaravelRobot\\Robot"
+                "Robot": "RaybonLee\\LaravelRobot\\Robot"
             }
         }
     },
