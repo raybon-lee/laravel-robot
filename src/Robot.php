@@ -1,6 +1,6 @@
 <?php
 
-namespace RaybonLee\LaravelRebot;
+namespace RaybonLee\LaravelRobot;
 
 use Closure;
 use Illuminate\Support\Facades\Facade;
