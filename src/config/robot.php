@@ -1,6 +1,6 @@
 <?php
 
-$config = [
+return [
     // 默认发送的分组 支持多个
     'default' => ['feishu.jishu'],
     // 发送消息的服务器env 如: production/development 等
